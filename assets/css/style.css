@@ -1,0 +1,11 @@
+body {
+    width: 100%;
+}
+.carousel-item {
+    background: url(../images/background.png);
+    background-size: contain;
+}
+
+.indicator-item {
+    background-color: black;
+}
