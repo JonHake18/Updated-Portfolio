@@ -3,9 +3,16 @@ body {
     font-family: 'Roboto', sans-serif;
     background-image: url(../images/background.png);
 }
+.carousel .indicators .indicator-item.active {
+    background-color: #ffd54f;
+}
 
-.indicator-item {
+.carousel .indicators .indicator-item {
     background-color: black;
+}
+
+.carousel .carousel-item {
+    height: 300px;
 }
 
 a {
@@ -17,4 +24,12 @@ a {
     text-align: center;
     font-size: 3vh;
     background-color: #ffd54f;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    margin: 0;
 }
