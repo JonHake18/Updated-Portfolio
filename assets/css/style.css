@@ -1,11 +1,20 @@
 body {
     width: 100%;
-}
-.carousel-item {
-    background: url(../images/background.png);
-    background-size: contain;
+    font-family: 'Roboto', sans-serif;
+    background-image: url(../images/background.png);
 }
 
 .indicator-item {
     background-color: black;
+}
+
+a {
+    font-family: 'Neucha', cursive;
+}
+
+.project-title {
+    color: white;
+    text-align: center;
+    font-size: 3vh;
+    background-color: #ffd54f;
 }
